@@ -10,3 +10,5 @@ jobs:
       - uses: ./action-a
         with:
           MY_NAME: "Mona"
+      - name: install gtest 
+        run: sudo apt-get install libgtest-dev
