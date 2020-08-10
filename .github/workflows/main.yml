@@ -11,4 +11,4 @@ jobs:
         with:
           MY_NAME: "Mona"
       - name: install gtest 
-        run: apt-get install libgtest-dev
+        run: sudo apt-get install libgtest-dev
